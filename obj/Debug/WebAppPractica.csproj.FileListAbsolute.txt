@@ -1,0 +1,7 @@
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Desarrollador .NET\ASP.NET\WebAppPractica\bin\WebApp.dll.config
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Desarrollador .NET\ASP.NET\WebAppPractica\bin\WebApp.dll
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Desarrollador .NET\ASP.NET\WebAppPractica\bin\WebApp.pdb
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Desarrollador .NET\ASP.NET\WebAppPractica\obj\Debug\WebAppPractica.csproj.AssemblyReference.cache
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Desarrollador .NET\ASP.NET\WebAppPractica\obj\Debug\WebAppPractica.csproj.CoreCompileInputs.cache
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Desarrollador .NET\ASP.NET\WebAppPractica\obj\Debug\WebApp.dll
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Desarrollador .NET\ASP.NET\WebAppPractica\obj\Debug\WebApp.pdb
