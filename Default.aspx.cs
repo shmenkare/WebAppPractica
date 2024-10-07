@@ -11,7 +11,7 @@ namespace WebAppPractica
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //declara una coleccion de objetos Libro
+           //declara una coleccion de objetos Libro
             List<Libro> libros = new List<Libro>();
 
             //Agregar algunos libros
@@ -27,15 +27,20 @@ namespace WebAppPractica
 
             //DataBind();
 
-            ddlPrueba.DataSource = libros;
-            ddlPrueba.DataTextField = "Nombre";
-            ddlPrueba.DataValueField = "Precio";
-            ddlPrueba.DataBind();
+            if (!IsPostBack)
+            {
+                ddlPrueba.DataSource = libros;
+                ddlPrueba.DataTextField = "Nombre";
+                ddlPrueba.DataValueField = "Precio";
+                ddlPrueba.DataBind();
 
-            lsbListBox.DataSource = libros;
-            lsbListBox.DataTextField = "Nombre";
-            lsbListBox.DataValueField = "Precio";
-            lsbListBox.DataBind();
+                lsbListBox.DataSource = libros;
+                lsbListBox.DataTextField = "Nombre";
+                lsbListBox.DataValueField = "Precio";
+                lsbListBox.DataBind();
+            }
+
+          
         }
 
         protected void btnBoton_Click(object sender, EventArgs e)

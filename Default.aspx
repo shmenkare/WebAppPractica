@@ -93,10 +93,13 @@
 
             <asp:TextBox ID="txtPrecio" runat="server"></asp:TextBox>
             <br />
-
+            <br />
+           
+            <!-- Lista de productos-->
+            
             <asp:ListBox ID="lsbListBox" runat="server" Width="100" AutoPostBack="true" OnSelectedIndexChanged="lsbListBox_SelectedIndexChanged"></asp:ListBox>
 
-            <asp:Label ID="lblValor" runat="server">Item</asp:Label>
+            <asp:Label ID="lblValor" runat="server">Valor</asp:Label>
             <asp:TextBox ID="txtValor" runat="server"></asp:TextBox>
 
 
